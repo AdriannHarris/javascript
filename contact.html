@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./contact.css">
+</head>
+<body>
+
+<header>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="#">Velocity Dealers</a>
+          <a href="home.html">Home</a>
+          <a href="product.html">Cars</a>
+          <a href="contact.html">Contact Us</a>
+          <a href="gallery.html">Hall of Fame</a>
+        </div>
+      </div>
+      
+      
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+      
+    
+      <script>
+      function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+      }
+      
+      function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+      }
+      </script>
+</header>
+
+
+
+
+   <section class="contact">
+        <div class="content">
+            <h2>Contact Us</h2>
+            <p>Leave us a review and tell us what you thought!</p>
+        </div>
+        <div class="container">
+            <div class="contactInfo"></div>
+                <div class="box">
+                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i>
+                        <div class="text">
+                            <h3>Headquarters</h3>
+                            <p>Houston, Texas</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="box">
+                    <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i>
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <p>704-287-6688</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>velocitydealersinc@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+   </section>
+
+
+   <div class="container">
+    <form action="action_page.php">
+  
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+  
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="usa">USA</option>
+        <option value="canada">Canada</option>
+        <option value="australia">Austrailia</option>
+      </select>
+  
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+  
+      <input type="submit" value="Submit">
+  
+    </form>
+  </div>
+
+
+   <footer class="footer-bottom">
+    <ul class="socials">
+      <li><a href="https://facebook.com/" aria-label="Read more about Facebook"><i class="fa fa-facebook"></i></a></li>
+      <li><a href="https://twitter.com/" aria-label="Read more aboutTwitter"><i class="fa fa-twitter"></i></a></li>
+      <li><a href="https://googleplus.com/" aria-label="Read more about Google Plus"><i class="fa fa-google-plus"></i></a></li>
+      <li><a href="https://youtube.com/" aria-label="Read more about Youtube"><i class="fa fa-youtube"></i></a></li>
+      <li><a href="https://linkedin.com/" aria-label="Read more about Linkedin"><i class="fa fa-linkedin-square"></i></a></li>
+    </ul>
+</footer>
+   
+    
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet"  href="./home.css">
+</head>
+<body>
+
+    
+<header>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="#">Velocity Dealers</a>
+          <a href="home.html">Home</a>
+          <a href="product.html">Cars</a>
+          <a href="contact.html">Contact Us</a>
+          <a href="gallery.html">Hall of Fame</a>
+        </div>
+      </div>
+      
+      
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+      
+    
+      <script>
+      function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+      }
+      
+      function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+      }
+      </script>
+
+</header>
+
+
+    <div class="slider">
+      
+        <figure>
+             <div class="slide">
+                <p></p>
+                <img src="https://media.ford.com/content/fordmedia/fna/us/en/asset.download.image.original.html/content/dam/fordmedia/North%20America/US/2018/03/29/Mustang-Bullitt-Boomerang_V5.gif" alt="mustang">
+            </div>
+
+            <div class="slide">
+                <p></p>
+                 <img src="https://media.chevrolet.com/dld/content/dam/Media/images/US/Events/AutoShows/2016/sema/CamaroSlammer/2016-SEMA-Chevrolet-CamaroSS-Slammer-027.jpg" alt="camaro">
+            </div>
+
+            <div class="slide">
+                <p></p>
+                 <img src="https://audimediacenter-a.akamaihd.net/system/production/media/112399/images/75abb3d66d941d635bd28d16bdcb56941a393958/A225131_blog.jpeg?1664193648" alt="audi">
+            </div>
+
+             <div class="slide">
+                <p></p>
+                 <img src="https://media.architecturaldigest.com/photos/61785a7e983eba1f38a08f5e/16:9/w_2560%2Cc_limit/2023-Chevrolet-Corvette-Z06-003.jpg" alt="corvette">
+            </div>
+
+            <div class="slide">
+                <p></p>
+                <img src="https://media2.giphy.com/media/77F1Ogb2A1fy0LESQO/giphy.gif" alt="donuts">
+            </div>
+        </figure>
+    </div>
+    
+
+</body>
+</html>
